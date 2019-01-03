@@ -1,0 +1,35 @@
+.block--column_block {
+    width: 100%;
+    display: inline-block;
+
+    .column {
+        padding: 15px;
+    }
+
+    /**
+     * Column Sizes
+     */
+    &.column_block--full_width {
+        width: 100%;
+    }
+
+    &.column_block--one_half {
+        width: 50%;
+    }
+
+    &.column_block--one_third {
+        width: 33.3333333333%;
+    }
+
+    &.column_block--two_thirds {
+        width: 66.6666666666%;
+    }
+
+    &.column_block--one_quarter {
+        width: 25%;
+    }
+
+    &.column_block--three_quarters {
+        width: 75%;
+    }
+}
